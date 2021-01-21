@@ -1,3 +1,5 @@
+// https://github.com/shakilibn/3rd-assignment
+
 function kilometerToMeter(kilometer){
     if(kilometer < 0) {                        //this is condition for negative number
         return "distance cannot be negative";
@@ -68,7 +70,3 @@ function megaFriend(names) {
     }
     return largeName;
 }
-
-var friends = ["shakil ibn rukan", "saiful", "riyaj", "rayhan", "abdul hamid"];
-var output = megaFriend(friends);
-console.log(output);
